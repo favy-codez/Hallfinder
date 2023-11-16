@@ -195,6 +195,7 @@
     color: #152248;
     text-align: center;
     width: 600px;
+    margin: 2rem 0 0 0;
 }
 
 .ready-section button{
@@ -212,7 +213,7 @@
 .blog-section h2{
     text-align: center;
     font-size: 3rem;
-    margin: 3rem 0 3rem 0;
+    margin: 3rem 0 2rem 0;
     color: #152248;
 }
 
@@ -251,14 +252,63 @@ footer{
 footer .parta{
     display: flex;
     justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.parta h3{
+    font-size: 1.3rem;
+    margin: 0 0 13px 0;
 }
 
 .partb{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    margin: 30px 0 0 0;
 }
 
+#sub{
+    width: 300px;
+    margin: 0 0 10px 0;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.part1 p{
+    padding: 6px 0;
+}
+  
+
 .socialmediaicons{
+    display: flex;
+    gap: 12px;
     color: #fff;
+    font-size: 1.5rem;
+}
+
+.add1{
+    width: 200px;
+    padding: 10px ;
+    display: block;
+    margin: 20px auto;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.add2{
+    width: 200px;
+    padding: 10px;
+    display: block;
+    margin: 20px 0;
+    background-color: #F0A02C;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
 }
