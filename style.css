@@ -242,6 +242,90 @@
     margin: 12px 0;
 }
 
+
+/* FAQ section */
+#FAQSection{
+    position: relative;
+    padding: 4rem;
+}
+
+.FAQHeader{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.FAQHeader h1{
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgb(19,32,60);
+}
+
+.FAQHeader img{
+    width: 26%;
+    height: 17%;
+    position: absolute;
+    left: 7%;
+    top: -11%; 
+    border: none;
+    z-index: 1; 
+} 
+#FAQs{
+    display: grid;
+    place-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.FAQ{
+    width: 100%;
+    border:1px solid rgb(194, 189, 189);
+    padding: 20px ;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.FAQ h3{
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.FAQ p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.FAQuestion{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30rem;
+    color: rgb(19,32,60);
+}
+
+.FAQAnswer{
+    display: none;
+    width: 100%;
+}
+
+.FAQ.showFAQ .FAQAnswer{
+    display: block;
+}
+
+.FAQText{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
 /* FOOTER */
 footer{
     background-color: #000;
