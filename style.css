@@ -17,7 +17,7 @@
 
 .right-sec {
     display: flex;
-    gap: 20px;
+    gap: 32px;
     justify-content: space-between;
     font-size: 19px;
     padding: 12px  0 0 0;
@@ -33,11 +33,12 @@
 .right-sec .btn button{
     color: #F0A02C;
     font-size: 19px;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border: 1px solid #F0A02C;
     background-color: #fff;
     border-radius: 6px;
     cursor: pointer;
+    margin: 0 0 0 6rem;
 }
 
 /* HERO SECTION */
@@ -60,4 +61,204 @@
 /* LISTING SECTION */
 .listing-section h2{
     color: #152248;
+    text-align: center;
+    font-size: 2rem;
+    margin: 30px 0;
+}
+
+.boxes{
+    background-color: #989CA83B;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 3rem;
+    margin: 15px 0 30px 0;
+}
+
+.box{
+    width: 283px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.box h3{
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.box-text{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0 15px 0;
+}
+
+.text{
+    font-size: 16px;
+    padding: 0 0 0 10px;
+}
+
+.box button{
+    padding: 10px 30px;
+    display: block;
+    margin: 20px auto;
+    background-color: #152248;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.location{
+    display: flex;
+    gap: 10px;
+    padding: 0 0 20px 15px ;
+}
+
+.fa-location-dot{
+    font-size: 20px;
+}
+
+.gap{
+    margin: 12px 0;
+}
+
+/* ABOUT SECTION */
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8rem 2rem 8rem;
+}
+
+#about-img{
+    width: 500px;
+    height: 300px;
+}
+
+.text2 h3{
+    text-align: center;
+    font-size: 3rem;
+    margin: 40px 0 0 0;
+}
+
+.text2 p{
+    font-size: 19px;
+    text-align: center;
+    margin: 20px 0 0 0;
+    width: 600px;
+}
+
+/* NUMBERS SECTION */
+.numbers-section{
+    background-color: #C88525;
+    color: #fff;
+    border-radius: 60px 50px 0 0;
+    padding: 2rem 3rem;
+    margin: 0 0 2rem 0;
+}
+
+.numbers-section h3{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.sections{
+    display: flex;
+    margin: 2rem 0;
+    justify-content: space-between;
+    text-align: center
+}
+
+.fa-calendar-days, .fa-calendar, .fa-earth-africa, .fa-user-group{
+    font-size: 2.5rem;
+    margin: 0 0 1rem 0;
+}
+
+.section1 #num{
+    font-size: 2rem;
+}
+
+.letter{
+    font-size: 18px;
+}
+
+/* READY SECTION */
+.ready-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 30px 0;
+}
+
+.ready-section h2{
+    font-size: 3rem;
+    color: #152248;
+    text-align: center;
+    width: 600px;
+}
+
+.ready-section button{
+    padding: 10px 30px;
+    display: block;
+    margin: 20px auto;
+    background-color: #152248;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/* BLOG SECTION */
+.blog-section h2{
+    text-align: center;
+    font-size: 3rem;
+    margin: 3rem 0 3rem 0;
+    color: #152248;
+}
+
+.blog-sect{
+    background-color: #989CA83B;
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogsects1{
+    padding: 10px 15px ;
+    background-color: #fff;
+    color: #152248;
+    width: 350px;
+    display: block;
+    margin: 0  auto;
+}
+
+.blogsects1 h3{
+    margin: 12px 0;
+}
+
+.blogsects1 h5{
+    text-align: left;
+    margin: 12px 0;
+}
+
+/* FOOTER */
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 3rem ;
+}
+
+footer .parta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialmediaicons{
+    color: #fff;
 }
