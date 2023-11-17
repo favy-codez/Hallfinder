@@ -181,34 +181,6 @@
     font-size: 18px;
 }
 
-/* READY SECTION */
-.ready-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0 30px 0;
-}
-
-.ready-section h2{
-    font-size: 3rem;
-    color: #152248;
-    text-align: center;
-    width: 600px;
-    margin: 2rem 0 0 0;
-}
-
-.ready-section button{
-    padding: 10px 30px;
-    display: block;
-    margin: 20px auto;
-    background-color: #152248;
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    font-size: 20px;
-}
-
 /* BLOG SECTION */
 .blog-section h2{
     text-align: center;
@@ -242,6 +214,59 @@
     margin: 12px 0;
 }
 
+/* REVIEW SECTION */
+.review-section h2{
+    text-align: center;
+    color: #152248;
+    font-size: 3rem;
+    margin: 2rem 0 0 0;
+}
+
+.reviews{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comma{
+    display: flex;
+    gap: 2px;
+}
+
+.pic-sec img{
+    width: 30px;
+}
+
+.review-text{
+    display: flex;
+}
+
+/* READY SECTION */
+.ready-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 30px 0;
+}
+
+.ready-section h2{
+    font-size: 3rem;
+    color: #152248;
+    text-align: center;
+    width: 600px;
+    margin: 2rem 0 0 0;
+}
+
+.ready-section button{
+    padding: 10px 30px;
+    display: block;
+    margin: 20px auto;
+    background-color: #152248;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
 
 /* FAQ section */
 #FAQSection{
