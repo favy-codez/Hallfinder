@@ -48,6 +48,7 @@
 
 .right-sec #a:hover{
     color: #F0A02C;
+    transition: 0.8s;
 }
 
 /* CONTACT US PAGE */
@@ -226,6 +227,80 @@ input[type=text], input[type=email], input[type=number], textarea, input[type=pa
     transition: 0.8s;
 }
 
+/* PROFILE PAGE */
+.profile-container{
+    background-color: #E7E8EB42;
+    margin: 3rem 7rem;
+    padding: 2rem 15rem;
+}
+
+.profile-container h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.profile-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-sec{
+    display: flex;
+    gap: 2rem;
+}
+
+.profile-bottom{
+    margin: 2rem 0 0 0;
+}
+
+.profile-buttons a{
+    text-decoration: none;
+}
+
+.profile-buttons button{
+    width: 300px;
+    height: 60px;
+    padding: 10px 30px;
+    display: block;
+    margin: 4.5rem auto 3rem auto;
+    background-color: #152248;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.user-sec img{
+    width: 160px;
+}
+
+.profile-text{
+    margin: 4rem 0 0 0;
+    font-size: 1.5rem;
+}
+
+.prof-sec{
+    display: flex;
+    gap: 17px;
+}
+
+.prof-sec i{
+    font-size: 20px;
+    margin: 3px 0 0 0;
+}
+
+.prof-sec p:hover{
+    color: #152248;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.prof-sec p{
+    font-size: 23px;
+    font-weight: 500;
+}
+
 /* FOOTER */
 footer{
     background-color: #000;
@@ -314,75 +389,3 @@ input[type=text] {
     transition: 0.8s;
 }
 
-/* PROFILE PAGE */
-.profile-container{
-    background-color: #E7E8EB42;
-    margin: 3rem 7rem;
-    padding: 2rem 15rem;
-}
-
-.profile-container h2{
-    font-size: 2.5rem;
-    text-align: center;
-    margin: 1rem 0 3rem 0;
-}
-
-.profile-buttons{
-    display: flex;
-    justify-content: space-between;
-}
-
-.user-sec{
-    display: flex;
-    gap: 2rem;
-}
-
-.profile-bottom{
-    margin: 2rem 0 0 0;
-}
-
-.profile-buttons a{
-    text-decoration: none;
-}
-
-.profile-buttons button{
-    width: 300px;
-    height: 60px;
-    padding: 10px 30px;
-    display: block;
-    margin: 4.5rem auto 3rem auto;
-    background-color: #152248;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
-}
-
-.user-sec img{
-    width: 160px;
-}
-
-.profile-text{
-    margin: 4rem 0 0 0;
-    font-size: 1.5rem;
-}
-
-.prof-sec{
-    display: flex;
-    gap: 17px;
-}
-
-.prof-sec i{
-    font-size: 20px;
-    margin: 3px 0 0 0;
-}
-
-.prof-sec p:hover{
-    color: #152248;
-    transition: 0.7s;
-}
-
-.prof-sec p{
-    font-size: 23px;
-    font-weight: 500;
-}
