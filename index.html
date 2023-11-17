@@ -15,27 +15,29 @@
     <!-- REMIX ICON  -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- EXTERNAL STYLESHEET -->
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
     <div class="nav">
         <img src="/Images/LOGO HALLFINDER 1.png" alt="">
         <div class="right-sec">
-            <a href="">Home</a>
-            <a href="">Listings</a>
-            <a href="">About Us</a>
-            <a href="">Blog</a>
-            <a href="">Contact Us</a>
-            <div class="btn">
-                <button class="btn" type="submit">Profile</button>
-            </div>
+            <a id="a" href="#hero-section">Home</a>
+            <a id="a"href="#listing-section">Listings</a>
+            <a id="a" href="#about-section">About Us</a>
+            <a id="a" href="./signin.html">Log in</a>
+            <a id="a" href="/contactUs.html">Contact Us</a>
+            <a href="./signup.html" class="btn">
+                <button class="btn" type="submit">Create account</button>
+            </a>
         </div>
     </div>
-    <section class="hero-section">
-        <h1>Best Event Venues </h1>
-        <h1>For Your Special Occasions</h1>
+    <section id="hero-section" class="hero-section">
+        <div class="hero-sect">
+            <h1>Best Event Venues </h1>
+            <h1>For Your Special Occasions</h1>
+        </div>
     </section>
-    <section class="listing-section">
+    <section class="listing-section" id="listing-section">
         <h2>Recommended Listings</h2>
         <div class="boxes">
             <div class="box">
@@ -99,7 +101,7 @@
             </div>
         </div>
     </section>
-    <section class="about-section">
+    <section class="about-section" id="about-section">
         <div class="text2">
             <h3>About Us</h3>
             <p>
