@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- FAVICON -->
     <link rel="shortcut icon" href="./Images/LOGO HALLFINDER 1.png" type="image/x-icon">
-    <title>HALLFINDER | Log In</title>
+    <title>HALLFINDER | Profile</title>
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,36 +25,57 @@
             <a id="a" href="./index.html">Home</a>
             <a id="a"href="/index.html">Listings</a>
             <a id="a" href="/index.html">About Us</a>
-            <a id="a" class="active" style="color: #F0A02C;" href="#login-container">Log in</a>
-            <a id="a" href="/contactUs.html">Contact Us</a>
+            <a id="a" href="./signin.html">Log in</a>
+            <a id="a" style="color: #F0A02C;" href="#contactUs-container">Contact Us</a>
             <a href="/signup.html" class="btn">
                 <button class="btn" type="submit">Create account</button>
             </a>
         </div>
     </div>
 
-    <div class="login-container" id="login-container">
-        <form id="login-form" class="create-form" action="">
-            <h2>Log in</h2>
-            <p class="login-text">
-                Login with your email address and password
-            </p>
-            <input type="email" name="" id="" placeholder="Email Address">
-            <input type="password" name="" id="" style="margin-top: 20px;" placeholder="Password">
-            <div class="checkbox-sec">
-                <div class="checka">
-                    <input type="radio" name="" id="box-check">
-                    <p>Remember Me</p>
+    <div class="profile-container" id="profile-container">
+        <div id="profile-card" action="">
+            <div class="profile-top">
+                <h2>Profile</h2>
+                <div class="user-sec">
+                    <img src="./Images/Ellipse 12.png" alt="">
+                    <div class="profile-text">
+                        <p>MarieClara</p>
+                        <p>Bayo</p>
+                    </div>
                 </div>
-                <p class="reset">Reset Password</p>
+                <div class="profile-buttons">
+                    <a href="">
+                        <button>Setting</button>
+                    </a>
+                    <a href="">
+                        <button>Listing</button>
+                    </a>
+                </div>
             </div>
-            <div class="form-btn">
-                <button class="add2">LOG IN</button>
+            <div class="profile-bottom">
+                <div class="prof-sec">
+                    <i class="ri-notification-3-line"></i>
+                    <p>Notification</p>
+                </div>
+                <div class="prof-sec" style="padding: 15px 0;">
+                    <i class="ri-shopping-cart-2-line"></i>
+                    <p>Cart</p>
+                </div>
+                <div class="prof-sec">
+                    <i class="ri-information-line"></i>
+                    <p>About Us</p>
+                </div>
+                <div class="prof-sec" style="padding: 15px 0;">
+                    <i class="ri-lock-password-line"></i>
+                    <p>Privacy</p>
+                </div>
+                <div class="prof-sec">
+                    <i class="ri-login-box-line"></i>
+                    <p>Log Out</p>
+                </div>
             </div>
-            <div class="create-text">
-                <a href="/signin.html">Create Account</a>
-            </div>
-        </form>
+        </div>
     </div>
 
     <footer>
