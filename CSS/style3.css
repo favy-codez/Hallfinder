@@ -191,9 +191,118 @@ input[type=text] {
 }
 
 /* BOOKING SECTION PAGE 4*/
+.booking-section4 h1{
+    text-align: center;
+    color: #152248;
+    font-size: 3rem;
+    margin: 0 0 2rem 0;
+}
 
+.booking-boxes{
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 3rem 0;
+}
+
+.bookingbox1{
+    width: 400px;
+    box-shadow: 1px 2px 3px 1px grey;
+    border-radius: 10px;
+    padding: 12px 0;
+}
+
+.bookingbox1 h3{
+    margin: 2rem 3rem;
+    font-size: 2rem;
+}
+
+.bookingbox1 .box-circle{
+    width: 30px;
+}
+
+/* BOOKING 5 BOTTOM */
+.booking-process-bottom5{
+    margin: 5rem 0 2rem 10rem;
+    padding: 0 0 0 11rem;
+    width: 700px;
+}
+
+.booking-process-bottom5 h3{
+    font-size: 2rem;
+    margin: 0 0 2rem 0;
+}
+
+.booking-process-bottom5 .label{
+    font-size: 16px;
+}
+
+.booking-label{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+
+.expiry-sec1{
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+
+.expiry-sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.save-sec{
+    font-size: 17px;
+    display: flex;
+    gap: 5px;
+    margin: 2rem 0 0 0;
+}
+
+.booking-btn a{
+    text-decoration: none;
+}
+
+.booking-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+input[type=text],  input[type=number], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background: transparent;
+    resize: none;
+    border-radius: 5px;
+}
+
+::placeholder{
+    font-size: 17px;
+}
+
+.booking-btn button{
+    width: 300px;
+    height: 60px;
+    padding: 10px 30px;
+    display: block;
+    margin: 3rem 0 3rem 0;
+    background-color: #152248;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
 
 /* BOOKING SECTION PAGE 5*/
+
+
 /* FOOTER */
 footer{
     background-color: #000;

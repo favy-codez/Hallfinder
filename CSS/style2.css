@@ -82,7 +82,7 @@ input[type=text], input[type=email], input[type=number], textarea, input[type=pa
     background: transparent;
     resize: none;
     border-radius: 5px;
-  }
+}
 
 #contact-form button{
     width: 200px;
