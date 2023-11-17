@@ -26,6 +26,7 @@
 
 .right-sec a{
     text-decoration: none;
+    cursor: pointer;
     color: #000;
     padding: 12px 0 0 0;
 }
@@ -179,8 +180,22 @@
 }
 
 .fa-calendar-days, .fa-calendar, .fa-earth-africa, .fa-user-group{
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+.section1{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text4{
+    margin: 0 0 0 17px;
+    text-align: center;
 }
 
 .section1 #num{
@@ -189,6 +204,10 @@
 
 .letter{
     font-size: 18px;
+}
+
+.text-p{
+    display: flex;
 }
 
 /* BLOG SECTION */
@@ -451,6 +470,16 @@ footer .parta{
     margin: 30px 0 0 0;
 }
 
+.part1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.part1 a:hover{
+    color:#F0A02C;
+    transition: 0.8s;
+}
+
 #sub{
     width: 300px;
     margin: 0 0 10px 0;
@@ -473,6 +502,7 @@ input[type=text] {
     gap: 12px;
     color: #fff;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .add1{
@@ -493,8 +523,14 @@ input[type=text] {
     display: block;
     margin: 20px 0;
     background-color: #F0A02C;
+    cursor: pointer;
     color: #fff;
     border: none;
     border-radius: 10px;
     font-size: 20px;
+}
+
+.add2:hover{
+    background-color:#dd9120;
+    transition: 0.8s;
 }

@@ -28,6 +28,7 @@
 .right-sec a{
     text-decoration: none;
     color: #000;
+    cursor: pointer;
     padding: 12px 0 0 0;
 }
 
@@ -49,7 +50,7 @@
     color: #F0A02C;
 }
 
-/* CONTACT US SECTION */
+/* CONTACT US PAGE */
 .contactUs-container{
     background-color: #E7E8EB42;
     margin: 4rem 4rem;
@@ -72,7 +73,7 @@
     text-align: center;
 }
 
-input[type=text], input[type=email], input[type=number], textarea {
+input[type=text], input[type=email], input[type=number], textarea, input[type=password] {
     width: 100%;
     padding: 12px 20px;
     margin: 10px 0;
@@ -82,7 +83,7 @@ input[type=text], input[type=email], input[type=number], textarea {
     border-radius: 5px;
   }
 
-form button{
+#contact-form button{
     width: 200px;
     padding: 10px;
     display: block;
@@ -94,7 +95,7 @@ form button{
     font-size: 20px;
 }
 
-.form-btn{
+#contact-form .form-btn{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -102,6 +103,127 @@ form button{
 
 ::placeholder{
     font-size: 17px;
+}
+
+/* LOG IN PAGE */
+.create-container{
+    margin: 4rem 4rem;
+    padding: 2rem 2rem;
+}
+
+#create-form h2{
+    font-size: 2.5rem;
+}
+
+#create-form p{
+    font-size: 1.4rem;
+    margin: 30px 0 ;
+}
+
+#create-form{
+    width: 600px;
+    display: block;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+#create-form .form-btn{
+    display: block;
+    margin: 1rem auto;
+}
+
+#create-form button{
+    width: 200px;
+    padding: 10px;
+    display: block;
+    margin: 2.5rem auto 1rem auto;
+    background-color: #F0A02C;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.create-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.create-text a{
+    color: #F0A02C;
+    font-size: 20px;
+}
+
+.create-text a:hover{
+    color: #d18b23;
+}
+
+/* LOGIN PAGE */
+.login-container{
+    margin: 4rem 4rem;
+    padding: 2rem 2rem;
+}
+
+#login-form h2{
+    font-size: 2.5rem;
+}
+
+#login-form .login-text{
+    font-size: 1.4rem;
+    margin: 30px 0  20px 0;
+}
+
+#login-form{
+    width: 600px;
+    display: block;
+    margin: 3rem auto ;
+    text-align: center;
+}
+
+.checkbox-sec{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+#box-check{
+    margin: 9px 0 0 0;
+}
+
+.checka{
+    display: flex;
+    gap: 3px;
+}
+
+.checkbox-sec p{
+    font-size: 18px;
+    margin: 30px 0  20px 0;
+}
+
+#login-form .form-btn{
+    display: block;
+    margin: 1rem auto;
+}
+
+#login-form button{
+    width: 200px;
+    padding: 10px;
+    display: block;
+    margin: 2.5rem auto 3rem auto;
+    background-color: #F0A02C;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.reset:hover{
+    color: #F0A02C;
+    transition: 0.8s;
 }
 
 /* FOOTER */
@@ -127,6 +249,16 @@ footer .parta{
     margin: 30px 0 0 0;
 }
 
+.part1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.part1 a:hover{
+    color:#F0A02C;
+    transition: 0.8s;
+}
+
 #sub{
     width: 300px;
     margin: 0 0 10px 0;
@@ -149,6 +281,7 @@ input[type=text] {
     gap: 12px;
     color: #fff;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .add1{
@@ -169,8 +302,14 @@ input[type=text] {
     display: block;
     margin: 20px 0;
     background-color: #F0A02C;
+    cursor: pointer;
     color: #fff;
     border: none;
     border-radius: 10px;
     font-size: 20px;
+}
+
+.add2:hover{
+    background-color:#dd9120;
+    transition: 0.8s;
 }
