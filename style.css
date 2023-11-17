@@ -215,6 +215,10 @@
 }
 
 /* REVIEW SECTION */
+.review-section{
+    margin: 3rem 0;
+}
+
 .review-section h2{
     text-align: center;
     color: #152248;
@@ -225,19 +229,83 @@
 .reviews{
     display: flex;
     justify-content: space-between;
+    margin: 2rem 6rem;
+}
+
+.comma img{
+    width: 13px;
+    height: 25px;
 }
 
 .comma{
     display: flex;
-    gap: 2px;
+    gap: -15px;
 }
 
 .pic-sec img{
-    width: 30px;
+    width: 80px;
+    height: 60px;
 }
 
-.review-text{
+.pic-sec2 img{
+    width: 80px;
+    height: 60px;
+}
+
+.pic-sec3 img{
+    width: 80px;
+    height: 60px;
+}
+
+.rev-text2{
+    margin: 3rem 0 0 0;
+}
+
+.pic-sec{
     display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+.pic-sec2{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 3rem 0 2rem;
+}
+
+.pic-sec3{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+.review1{
+    width: 350px;
+    padding: 20px 15px;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+.review1 p{
+    font-size: 18px;
+    margin: 1rem 0 2rem 0;
+}
+
+.review-text h3, .review-text2 h3, .review-text3 h3{
+    color: #152248;
+    margin: 6px 0 0 0;
+}
+
+.review-text p, .review-text2 p, .review-text3 p{
+    margin: 3px 0 0 0;
+    font-size: 16px;
+}
+
+.pic-me{
+    margin: 13px 0 0 0;
+}
+
+.pic-me1{
+    margin: 3rem 0 0 0;
 }
 
 /* READY SECTION */
@@ -246,7 +314,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px 0 30px 0;
+    margin: 1rem 0 30px 0;
 }
 
 .ready-section h2{
@@ -277,7 +345,6 @@
 .FAQHeader{
     text-align: center;
     margin-bottom: 2rem;
-    margin-top: 3rem;
 }
 
 .FAQHeader h1{
