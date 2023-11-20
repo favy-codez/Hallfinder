@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 .nav{
     display: flex;
     justify-content: space-between;
@@ -69,6 +73,23 @@
     background-color: rgba(155, 149, 149, 0.3);
 }
 
+.hero-section button{
+    width: 250px;
+    font-size: 30px;
+    padding: 10px 30px;
+    display: block;
+    margin: 4rem auto 0 auto;
+    background-color: #152248;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero-section button:hover{
+    background-color: #223469;
+    transition: .8s;
+}
+
 /* LISTING SECTION */
 .listing-section h2{
     color: #152248;
@@ -100,6 +121,10 @@
     text-align: center;
     font-size: 15px;
     padding: 10px 0 15px 0;
+}
+
+.box img{
+    width: 100%;
 }
 
 .text{
@@ -533,4 +558,8 @@ input[type=text] {
 .add2:hover{
     background-color:#dd9120;
     transition: 0.8s;
+}
+
+@media (max-width: 1024px){
+    
 }

@@ -102,6 +102,331 @@
     text-align: center;
 }
 
+.booking-section1{
+    margin: 2rem 12rem;
+}
+
+.chooseHall-section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.chooseHall{
+    margin: 0 2rem;
+}
+
+.chooseHall h3{
+    margin: 2rem 0 1.5rem 0;
+}
+
+.chooseHall-sec1 img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.chooseHall-sec1 p{
+    font-weight: 600;
+    margin: 10px 0 0 0;
+    font-size: 17px;
+}
+
+.booking-section1 .booking-btn{
+    display: block;
+    margin: 2rem auto;
+}
+
+/* calender */
+.calendar {
+    height: 30rem;
+    width: max-content;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 35px 50px 0px 50px;
+  }
+  
+  .calendar {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .calendar-header {
+    background: #8089FE;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    align-items: center;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .calendar-body {
+    padding: 10px;
+  }
+  
+  .calendar-week-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(104, 104, 104);
+  }
+  
+  .calendar-week-days div:hover {
+    color: black;
+    transform: scale(1.2);
+    transition: all .2s ease-in-out;
+  }
+  
+  .calendar-week-days div {
+    display: grid;
+    place-items: center;
+    color: #6D67CF;
+    height: 50px;
+  }
+  
+  .calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    color: #0A0921;
+  }
+  
+  .calendar-days div {
+    width: 37px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+    animation: to-top 1s forwards;
+  }
+  
+  .month-picker {
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .year-picker {
+    display: flex;
+    align-items: center;
+  }
+  
+  .year-change {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+  
+  .year-change:hover {
+    background-color: #9796f0;
+    transition: all .2s ease-in-out;
+    transform: scale(1.12);
+  }
+  
+  .calendar-footer {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #year:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.2 ease-in-out;
+  }
+  
+  .calendar-days div span {
+    position: absolute;
+  }
+  
+  .calendar-days div:hover {
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+    background-color: #fbc7d4;
+    border-radius: 20%;
+    color: #f8fbff;
+  }
+  
+  .calendar-days div.current-date {
+    color: #f8fbff;
+    background-color: #9796f0;
+    border-radius: 20%;
+  }
+  
+  .month-list {
+    position: relative;
+    left: 0;
+    top: -130px;
+    background-color: #ebebeb;
+    color: #151426;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 5px;
+    border-radius: 20px;
+  }
+  
+  .month-list>div {
+    display: grid;
+    place-content: center;
+    margin: 5px 10px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .month-list>div>div {
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .month-list>div>div:hover {
+    background-color: #9796f0;
+    color: #f8fbff;
+    transform: scale(0.9);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .month-list.show {
+    visibility: visible;
+    pointer-events: visible;
+    transition: 0.6s ease-in-out;
+    animation: to-left .71s forwards;
+  }
+  
+  .month-list.hideonce {
+    visibility: hidden;
+  }
+  
+  .month-list.hide {
+    animation: to-right 1s forwards;
+    visibility: none;
+    pointer-events: none;
+  }
+  
+  .date-time-formate {
+    height: 4rem;
+    width: 100%;
+    font-family: Dubai Light, Century Gothic;
+    position: relative;
+    display: flex;
+    top: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .day-text-formate {
+    font-family: Microsoft JhengHei UI;
+    font-size: 1.4rem;
+    padding-right: 5%;
+    border-right: 3px solid #9796f0;
+  }
+  
+  .date-time-value {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-left: 5%;
+  }
+  
+  .time-formate {
+    font-size: 1.5rem;
+  }
+  
+  .time-formate.hideTime {
+    animation: hidetime 1.5s forwards;
+  }
+  
+  .day-text-formate.hidetime {
+    animation: hidetime 1.5s forwards;
+  }
+  
+  .date-formate.hideTime {
+    animation: hidetime 1.5s forwards;
+  }
+  
+  .day-text-formate.showtime {
+    animation: showtime 1s forwards;
+  }
+  
+  .time-formate.showtime {
+    animation: showtime 1s forwards;
+  }
+  
+  .date-formate.showtime {
+    animation: showtime 1s forwards;
+  }
+  
+  @keyframes to-top {
+    0% {
+      transform: translateY(0);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(100%);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes to-left {
+    0% {
+      transform: translatex(230%);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: translatex(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes to-right {
+    10% {
+      transform: translatex(0);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: translatex(-150%);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes showtime {
+    0% {
+      transform: translatex(250%);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: translatex(0%);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes hidetime {
+    0% {
+      transform: translatex(0%);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: translatex(-370%);
+      opacity: 1;
+    }
+  }
+/* calendar */
+
 /* BOOKING SECTION PAGE 2*/
 
 /* BOOKING SECTION PAGE 3*/
@@ -339,93 +664,180 @@ input[type=text],  input[type=number], input[type=password], input[type=email] {
     padding: 12px;
 }
 
-/* FOOTER */
-footer{
-    background-color: #000;
-    color: #fff;
-    padding: 3rem ;
+/* HALL DETAILS */
+.hall-details{
+    padding: 0 3rem;
+    margin: 2rem 0;
 }
 
-footer .parta{
+.hero-img{
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.hall-details h3{
+    font-size: 3rem;
+}
+
+.hall-sec1{
     display: flex;
     justify-content: space-between;
-    font-size: 1.2rem;
+    margin: 1rem 0;
 }
 
-.parta h3{
-    font-size: 1.3rem;
-    margin: 0 0 13px 0;
+.hall-sec1 img{
+    border-radius: 5px;
 }
 
-.partb{
+.ri-checkbox-circle-line{
     text-align: center;
-    margin: 30px 0 0 0;
 }
 
-.part1 a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.part1 a:hover{
-    color:#F0A02C;
-    transition: 0.8s;
-}
-
-#sub{
-    width: 300px;
-    margin: 0 0 10px 0;
-}
-
-input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border-radius: 8px;
-}
-
-.part1 p{
-    padding: 6px 0;
-}
-  
-
-.socialmediaicons{
+.share-text{
     display: flex;
-    gap: 12px;
-    color: #fff;
-    font-size: 1.5rem;
-    cursor: pointer;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 0 0 12rem;
 }
 
-.add1{
-    width: 200px;
-    padding: 10px ;
+.hall-sec2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 1rem 6rem;
+}
+.hall-sec2a p{
+    padding: 8px 0 0 0;
+}
+
+.share-sec{
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem 0 0 0;
+}
+
+.share-sec i{
+    color:#F0A02C;
+}
+
+.hall-share{
+    width: 130px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 6px 10px;
+    border: 1px solid #000;
+}
+
+.book-btn button{
+    width: 100%;
+    padding: 12px 0;
+    background-color: #152248;
+    color: #fff;
+    margin: 2rem 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.4rem;
+}
+
+.box h5{
+    font-size: 1.3rem;
+}
+
+.hall-sec3 h4{
+    color:#F0A02C;
+    margin: 7px 0 0 0;
+}
+
+.call-sec{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.callbox{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border: 1px solid #F0A02C;
+}
+
+.hall-sec4{
+    display: flex;
+    margin: 2rem 0;
+    gap: 2rem;
+}
+
+.hall-sec4 h3{
+    margin: 4rem 0 1rem 0;
+}
+
+.hall-sec4 p{
+    font-size: 20px;
+    line-height: 26px;
+    margin: 1.6rem 0 0 0;
+}
+
+.boxes{
+    background-color: #989CA83B;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 3rem;
+    margin: 15px 0 30px 0;
+}
+
+.box{
+    width: 350px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.box h5{
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.box-text{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0 15px 0;
+}
+
+.box img{
+    width: 100%;
+}
+
+.text{
+    font-size: 16px;
+    padding: 0 0 0 10px;
+}
+
+.box button{
+    padding: 10px 30px;
     display: block;
     margin: 20px auto;
-    background-color: #fff;
-    color: #000;
-    border: none;
-    border-radius: 10px;
-    font-size: 20px;
-}
-
-.add2{
-    width: 200px;
-    padding: 10px;
-    display: block;
-    margin: 20px 0;
-    background-color: #F0A02C;
-    cursor: pointer;
+    background-color: #152248;
     color: #fff;
     border: none;
     border-radius: 10px;
+}
+
+.location{
+    display: flex;
+    gap: 10px;
+    padding: 0 0 20px 15px ;
+}
+
+.fa-location-dot{
     font-size: 20px;
 }
 
-.add2:hover{
-    background-color:#dd9120;
-    transition: 0.8s;
+.gap{
+    margin: 12px 0;
 }
+
 
 /* FOOTER */
 footer{
